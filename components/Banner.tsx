@@ -10,7 +10,7 @@ interface Props {
 export const Banner: React.FC<Props> = (props) => {
     return(
         <Container>
-            <Image src={BannerImg}/>
+            <Image src={BannerImg} alt="Banner"/>
         </Container>
     )
 }

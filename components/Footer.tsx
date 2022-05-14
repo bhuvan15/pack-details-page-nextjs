@@ -26,7 +26,7 @@ export const Footer: React.FC<Props> = (props) => {
             </MiniContainer>
             {/* Footer Graphics */}
             <FooterGraphics>
-                    <Image src={Graphics} objectFit="cover" />               
+                    <Image src={Graphics} objectFit="cover" alt='footer-design'/>               
             </FooterGraphics>
 
         </Container>

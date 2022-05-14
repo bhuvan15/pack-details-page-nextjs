@@ -12,7 +12,7 @@ export const PackImageDetails: React.FC<Props> = (props) => {
         <Container>
             {/* Pack Image */}
             <ImageContainer>
-                <Image src={PackImage} objectFit="contain"/>
+                <Image src={PackImage} objectFit="contain" alt="Pack Image"/>
             </ImageContainer>
 
             {/* Pack details and order details */}
@@ -63,7 +63,7 @@ export const PackImageDetails: React.FC<Props> = (props) => {
                         </OrderButton>
 
                         <ArrowButton>
-                            <Image src={ArrowBtn}/>
+                            <Image src={ArrowBtn} alt="arrow"/>
                         </ArrowButton>
                     </Buttons>
 

@@ -9,7 +9,7 @@ interface Props {
 export const Carousel: React.FC<Props> = (props) => {
     return(
         <Container>
-            <Image src={CarouselImg} objectFit="cover"/>
+            <Image src={CarouselImg} objectFit="cover" alt="Carousel"/>
         </Container>
     )
 }

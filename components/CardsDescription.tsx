@@ -11,7 +11,7 @@ export const CardsDescription: React.FC<Props> = (props) => {
     return(
         <Container>
             <ImgContainer>
-                <Image src={CardBunch} objectFit='cover' height={650} width={850}/>
+                <Image src={CardBunch} objectFit='cover' height={650} width={850} alt="Multiple Card"/>
                 <Para>
                     Silver Rarios are rare limited edition numbered digital collectibles 
                     (30,000 copies in each series)

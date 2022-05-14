@@ -26,7 +26,7 @@ export const RightFooter: React.FC<Props> = (props) => {
             </LinksContainer>
 
             <FooterImg>
-                <Image src={FooterLogoImg} objectFit="contain" height={footerLogoHeight} width={footerLogoWidth}/>
+                <Image src={FooterLogoImg} objectFit="contain" height={footerLogoHeight} width={footerLogoWidth} alt='Logo'/>
             </FooterImg>
         </Container>
     )

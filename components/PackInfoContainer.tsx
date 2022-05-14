@@ -13,7 +13,7 @@ export const PackInfoContainer: React.FC<Props> = (props) => {
     return (
         <Container>
             {/* Background Pattern */}
-            <Image src={PatternImg}  layout='fill' objectFit='cover'/>
+            <Image src={PatternImg}  layout='fill' objectFit='cover' alt="Background-pattern"/>
 
             {/* Content */}
             <MiniContainer>
