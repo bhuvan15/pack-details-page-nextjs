@@ -81,6 +81,7 @@ const Link = styled.div`
     justify-content: center;
     flex-direction: column;
     padding: 20px 0px;
+    margin: 10px;
 
 
     @media only screen and (max-width: 768px) {
