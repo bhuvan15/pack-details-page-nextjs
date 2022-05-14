@@ -52,7 +52,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: space-around;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 850px) {
         & {
             margin: 0 auto;
         }
