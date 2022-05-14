@@ -13,7 +13,7 @@ export const MediaContainer: React.FC<Props> = (props) => {
         <Container>
             <Link>
                 <Div>
-                   <a href="https://t.me/rariohq" target="_blank">
+                   <a href="https://t.me/rariohq" target="_blank" rel="noreferrer">
                        <Image src = {TelegramIcon} objectFit='cover' alt="telegram Icon"/>
                     </a> 
                 </Div>
@@ -23,7 +23,9 @@ export const MediaContainer: React.FC<Props> = (props) => {
 
             <Link>  
                 <Div>
-                    <a href="https://discord.com/invite/ZuNW7WJw7x" target="_blank"><Image src = {DiscordIcon} objectFit='cover' alt='Discord-Icon'/></a>
+                    <a href="https://discord.com/invite/ZuNW7WJw7x" target="_blank" rel="noreferrer">
+                        <Image src = {DiscordIcon} objectFit='cover' alt='Discord-Icon'/>
+                    </a>
                 </Div>
 
                 <Name>Discord</Name>
@@ -31,7 +33,9 @@ export const MediaContainer: React.FC<Props> = (props) => {
 
             <Link>
                 <Div>
-                    <a href="https://twitter.com/rariohq" target="_blank"><Image src = {TwitterIcon} objectFit='cover' alt='Twitter-Icon'/></a>
+                    <a href="https://twitter.com/rariohq" target="_blank" rel="noreferrer">
+                        <Image src = {TwitterIcon} objectFit='cover' alt='Twitter-Icon'/>
+                    </a>
                 </Div>
                 
                 <Name>Twitter</Name>

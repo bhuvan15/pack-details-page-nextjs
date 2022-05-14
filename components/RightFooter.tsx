@@ -12,17 +12,17 @@ export const RightFooter: React.FC<Props> = (props) => {
     return(
         <Container>
             <LinksContainer>
-                <a href="https://medium.com/rario" target="_blank">Blogs</a>
-                <a href="https://rario.com/terms-of-use" target="_blank">Terms</a>
-                <a href="https://rario.com/privacy-policy" target="_blank">Privacy</a>
-                <a href="https://rario.freshdesk.com/support/home" target="_blank">Help</a>
-                <a href="https://rario.com/custom/press/p2KygpsMUAvoXLBqnsoxX" target="_blank">Press</a>
-                <a href="/">Newsletters</a>
-                <a href="https://twitter.com/rariohq" target="_blank">Twitter</a>
-                <a href="https://www.instagram.com/rariohq/" target="_blank">Instagram</a>
-                <a href="https://www.youtube.com/channel/UCqo65RCtVWBvICDMF6COhLA/featured" target="_blank">Youtube</a>
-                <a href="https://www.facebook.com/rarioglobal" target="_blank">Facebook</a>
-                <a href="https://www.twitch.tv/rariocomms" target="_blank">Twitch</a>
+                <a href="https://medium.com/rario" target="_blank" rel="noreferrer">Blogs</a>
+                <a href="https://rario.com/terms-of-use" target="_blank" rel="noreferrer">Terms</a>
+                <a href="https://rario.com/privacy-policy" target="_blank" rel="noreferrer">Privacy</a>
+                <a href="https://rario.freshdesk.com/support/home" target="_blank" rel="noreferrer">Help</a>
+                <a href="https://rario.com/custom/press/p2KygpsMUAvoXLBqnsoxX" target="_blank" rel="noreferrer">Press</a>
+                <a href="#">Newsletters</a>
+                <a href="https://twitter.com/rariohq" target="_blank" rel="noreferrer">Twitter</a>
+                <a href="https://www.instagram.com/rariohq/" target="_blank" rel="noreferrer">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCqo65RCtVWBvICDMF6COhLA/featured" target="_blank" rel="noreferrer">Youtube</a>
+                <a href="https://www.facebook.com/rarioglobal" target="_blank" rel="noreferrer">Facebook</a>
+                <a href="https://www.twitch.tv/rariocomms" target="_blank" rel="noreferrer">Twitch</a>
             </LinksContainer>
 
             <FooterImg>

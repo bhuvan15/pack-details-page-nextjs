@@ -3,6 +3,7 @@ import Image from 'next/image';
 import LogoImg from '../public/Logo.png'
 import UserIcon from '../public/user.png'
 import Hamburgericon from '../public/Hamburger-menu.png'
+import Link from 'next/link'
 
 interface Props {
   
@@ -16,9 +17,9 @@ export const Navbar: React.FC<Props> = (props) => {
          <NavContainer>
             <Nav>
                 {/* Logo Image*/}
-                <a href="/">
+                <Link href="/">
                     <Image src={LogoImg} alt="Rario Logo" height={logoHeight} width= {logoWidth}/>
-                </a> 
+                </Link> 
 
                 {/* Navigation menu */}
                 <Navigation>
@@ -26,11 +27,11 @@ export const Navbar: React.FC<Props> = (props) => {
                     <Options>
                         
                         <div>
-                            <a href="https://rario.com/marketplace" target="_blank">MArketplace</a>
+                            <a href="https://rario.com/marketplace" target="_blank" rel="noreferrer">Marketplace</a>
                             <span>Sept 2021</span>
                         </div>
                         <div>
-                            <a href="https://medium.com/rario" target="_blank">Vault</a>
+                            <a href="https://medium.com/rario" target="_blank" rel="noreferrer">Vault</a>
                             <span>Sept 2021</span>
                         </div>
                         <div>
@@ -55,12 +56,12 @@ export const Navbar: React.FC<Props> = (props) => {
                                 <div className="mobile">
 
                                     <div className="block">
-                                        <a href="https://rario.com/marketplace" target="_blank">Marketplace</a>
+                                        <a href="https://rario.com/marketplace" target="_blank" rel="noreferrer">Marketplace</a>
                                         <span>Sept 2021</span>
                                     </div>
 
                                     <div className="block">
-                                        <a href="https://medium.com/rario" target="_blank">Vault</a>
+                                        <a href="https://medium.com/rario" target="_blank" rel="noreferrer">Vault</a>
                                         <span>Sept 2021</span>
                                     </div>
 
