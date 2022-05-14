@@ -1,4 +1,5 @@
 import styled from '@emotion/styled'
+import styles from "../styles/Slider.module.css"
 
 interface Props {
   max : number,
@@ -12,7 +13,7 @@ export const RangeSlider: React.FC<Props> = ({max, val}) => {
             type='range'
             max={max}
             value={val}
-            className='slider'
+            className={styles.slider}
             />
 
             <FloatingBox>
