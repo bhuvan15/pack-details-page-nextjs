@@ -173,7 +173,7 @@ const PackName = styled.div`
 
     @media only screen and (max-width: 850px) {
         h1 {
-            font-size: 12px;
+            font-size:22px;
             padding: 10px;
         }
     }
